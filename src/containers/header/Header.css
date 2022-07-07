@@ -110,9 +110,50 @@
         margin: 0 0 3rem;
     }
 }
-
-@media screen and (max-width: 700) {
-    .ibnsco__header-content h1{
-        font-size: ;
+@media screen and (max-width: 700px) {
+    .ibnsco__header h1{
+       font-size: 30px;
     }
+    .ibnsco__header p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .ibnsco__header-content__people {
+        flex-direction: column;
+    }
+
+    .ibnsco__header-content__people p{
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .ibnsco__header-content__input input,
+    .ibnsco__header-content__input button {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    @media screen and (max-width: 490px) {
+        
+
+        .ibnsco__header p {
+            font-size: 15px;
+            line-height: 18px;
+        }
+
+        .ibnsco__header-content__people {
+            flex-direction: column;
+        }
+        .ibnsco__header-content__people {
+            flex-direction: column;
+        }   
+
+        .ibnsco__header-content__people p{
+            margin: 0;
+            font-size:9px;
+            text-align: center;
+        }
+    }    
 }
+
